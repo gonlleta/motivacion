@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="18dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:id="@+id/widget_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✨ IMPULSO MOTIVACIÓN"
+        android:textColor="#FBBF24"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/widget_quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“No midas tu progreso con la regla de otra persona. Compite únicamente con quien eras ayer.”"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="italic|bold"
+        android:maxLines="4"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/widget_author_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="— Sabiduría Estoica"
+        android:textColor="#FCD34D"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
+

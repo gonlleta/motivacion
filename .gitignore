@@ -1,0 +1,5 @@
+node_modules/
+.android-fast-builder/
+.android-build-tools/
+dist/
+*.log
